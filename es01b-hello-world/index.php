@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 $nome = 'Daniele';
-$messaggio = "Hello World dell'esercizio b.";
+$messaggio = 'Hello World sotto controllo versione con Git.';
 ?>
 <!DOCTYPE html>
 <html lang="it">
