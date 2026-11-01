@@ -1,0 +1,13 @@
+{
+  "name": "Sito PHP dello studente",
+  "image": "mcr.microsoft.com/devcontainers/php:1-8.3-bookworm",
+  "forwardPorts": [8000],
+  "portsAttributes": {
+    "8000": {
+      "label": "Sito PHP",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "postStartCommand": "nohup php -S 0.0.0.0:8000 -t \"${containerWorkspaceFolder}\" > /tmp/php-course-server.log 2>&1 < /dev/null &",
+  "remoteUser": "vscode"
+}
