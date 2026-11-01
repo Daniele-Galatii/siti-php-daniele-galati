@@ -1,0 +1,11 @@
+/tmp/
+*.log
+*.tmp
+*.swp
+*~
+.env
+.env.*
+!.env.example
+config.local.php
+/adminer.php
+/info.php
